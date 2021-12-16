@@ -1,0 +1,123 @@
+1. class  Declarations{
+public static void main (String[] args){
+// declares an Array of integers.
+int[] arr;
+// allocating memory for 5 integers.
+arr = new int[5];
+// initialize the first elements of the array
+arr[0] = 10;
+// initialize the second elements of the array
+arr[1] = 20;
+//so on...
+arr[2] = 30;
+arr[3] = 40;
+arr[4] = 50;
+// accessing the elements of the specified array
+for (int i = 0; i < arr.length; i++)
+System.out.println("Element at index " + i +" : "+ arr[i]);
+}
+}
+
+Output:
+Element at index 0 : 10
+Element at index 1 : 20
+Element at index 2 : 30
+Element at index 3 : 40
+Element at index 4 : 50
+
+2. class Main {
+ public static void main(String[] args) {
+
+ // declare variables
+ int a = 12, b = 5;
+ // addition operator
+ System.out.println("a + b = " + (a + b));
+ // subtraction operator
+ System.out.println("a - b = " + (a - b));
+ // multiplication operator
+ System.out.println("a * b = " + (a * b));
+ // division operator
+ System.out.println("a / b = " + (a / b));
+ // modulo operator
+ System.out.println("a % b = " + (a % b));
+ }
+}
+
+Output:
+a + b = 17
+a - b = 7
+a * b = 60
+a / b = 2
+a % b = 2
+
+3. class Main01 {
+ public static void main(String[] args) {
+
+ // create variables
+ int a = 4;
+
+ int var;
+ // assign value using =
+ var = a;
+ System.out.println("var using =: " + var);
+ // assign value using =+
+ var += a;
+ System.out.println("var using +=: " + var);
+ // assign value using =*
+ var *= a;
+ System.out.println("var using *=: " + var);
+ }
+}
+
+Output:
+var using =: 4
+var using +=: 8
+var using *=: 32
+
+4. public class Main02 {
+ public static void main(String[] args) {
+ int myInt = 9;
+ double myDouble = myInt; // Automatic casting: int to double
+ System.out.println(myInt);
+ System.out.println(myDouble);
+ }
+}
+
+Output:
+9
+9.0
+
+5.  class Main04 {
+ public static void main(String[] args) {
+ byte range;
+ range = 124;
+System.out.println(range);
+ }
+}
+
+Output:
+
+124
+
+6.  public class VariableDemo{
+ public static void main(String[] args){
+ 
+ int rollno;
+ String name;
+ double marks;
+
+ rollno = 19;
+ name = "David";
+ marks = 89.8;
+
+ System.out.println("Your roll number is " + rollno);
+ System.out.println("Your name is " + name);
+ System.out.println("Your marks is " + marks);
+ }
+}
+
+Output:
+
+Your roll number is 19
+Your name is David
+Your marks is 89.8
