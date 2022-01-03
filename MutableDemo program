@@ -1,0 +1,38 @@
+public class MutableDemo {
+	
+	private String name;
+	
+	MutableDemo(String name){
+		
+		this.name =name;
+	}
+	
+	public String getName() {
+		return name;
+	}
+	
+	public void setName(String name) {
+		this.name =name;
+		//return name;in place of void string use .
+		
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		MutableDemo obj = new MutableDemo("hello2");
+		System.out.println(obj.getName());
+		
+		obj.setName("new hello2");
+		System.out.println(obj.getName());
+
+		
+
+	}
+
+}
+
+
+Output
+hello1
+new hello 1
